@@ -1,0 +1,318 @@
+*   {
+  font font-family: Arial, serif;
+  /* background-color: lightgrey; */
+  text-align: center ;
+  border: 0px solid red;
+  border-radius: 10px;
+}
+
+body{
+  margin-top: 20px;
+  background-color: lightgrey;   /* this defines the background color outside the boxes */
+}
+
+
+button {
+  background-color: darkgrey;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+button:hover {
+  color: dodgerblue ;
+
+}
+
+
+title {
+  font-family: 'Noto Serif Display', serif;
+}
+
+
+
+p{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+p2{
+  font-size: 24px;
+  font-family: 'Cookie', cursive;
+  font-family: 'Playfair Display', serif;
+}
+
+
+h1 {
+  font-size: 40px;
+  font-family: 'Noto Serif Display', serif;
+  /*color: rgba(44, 73, 205, 1);*/
+  /*background-color:rgba(80, 70, 75, 0.17);*/          /*This defines the Title background color*/
+  color: black;
+  padding: 0px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.name{
+  color: black;
+}
+
+
+/*ABOUT ME TITLE*/
+h2 {
+  font-size: 35px;
+  color: rgba(15, 8, 157, 1);
+  text-decoration-line: underline;
+  font-family: 'Dancing Script', cursive;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+/*TRAVELING TITLE*/
+h3{
+  font-size: 35px;
+  color: cadetblue;
+  text-decoration-line: underline;
+  font-family: 'Dancing Script', cursive;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+/*TECHNOLOGY TITLE*/
+h4{
+  font-size: 35px;
+  color: darkred;
+  text-decoration-line: underline;
+  font-family: 'Dancing Script', cursive;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+/*SKIIING TITLE*/
+h5{
+  font-size: 35px;
+  color: darkgoldenrod;
+  text-decoration-line: underline;
+  font-family: 'Dancing Script', cursive;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+/*PHOTOGRAPHY TITLE*/
+h6{
+  font-size: 35px;
+  color: Black;
+  text-decoration-line: underline;
+  font-family: 'Dancing Script', cursive;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+/*SOCIAL TITLE*/
+.social{
+  font-size: 40px;
+  color: darkblue;
+  text-decoration-line: underline;
+  font-family: 'Dancing Script', cursive;
+  margin-bottom: 0px;
+}
+
+
+#profilepic {
+  .perfect-circle
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+}
+
+#experience
+{
+
+
+}
+
+ul {
+  padding: 0px;
+  font-size: 18px;
+  font-family: 'Cookie', cursive;
+  font-family: 'Teko', sans-serif;
+}
+
+
+ul li {
+  list-style: none;
+  margin-left: 25px;
+  margin-right: 25px;
+  display: inline-block;
+  justify-content: center;
+}
+
+ul li a {
+  color: darkblue;
+  font-size: 24px;
+  line-height: 2;
+}
+
+
+a:hover{
+  color: red;
+}
+
+
+.White-card{
+  background-color: white;   /* background colour of the boxes */
+  border: 1px solid #333;
+  /*box-shadow: 6px 16px 24px rgba(0, 0, 0, 0.1);*/
+  box-shadow: 8px 8px 5px #444;
+  padding: 0px 80px;
+
+}
+
+.Container{
+  width: 1000px;
+  margin: 50px auto;
+}
+
+.btn-blue{
+  background-color: blue;
+  padding: 14px 18px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.btn-blue:hover{
+  background-color: black;
+}
+
+.welcome{
+  font-size: 20px;
+  font-family: 'Cookie', cursive;
+  font-family: 'Playfair Display', serif;
+}
+
+.linkto{
+  color: black;
+  text-decoration: none;
+}
+
+.linkto:hover{
+  color: mediumslateblue;
+}
+
+@media(max-width: 1100px) {
+  .Container{
+    width: 900px;
+  }
+}
+
+@media(max-width: 1000px) {
+  .Container{
+    width: 800px;
+  }
+}
+
+
+@media(max-width: 900px) {
+  .Container{
+    width: 700px;
+  }
+}
+
+@media(max-width: 800px) {
+  .Container{
+    width: 600px;
+  }
+}
+
+@media(max-width: 700px) {
+  .Container{
+    width: 500px;
+  }
+  .img{
+    width: 280px;
+  }
+  .img1{
+    width: 350px;
+  }
+}
+
+@media(max-width: 600px) {
+  .Container{
+    width: 400px;
+  }
+  .img{
+    width: 250px;
+  }
+  .img1{
+    width: 220px;
+  }
+}
+
+/*1ST MAJOR SETTING PHONE*/
+@media(max-width: 500px) {
+  .Container{
+    width: 370px;
+  }
+  .img{
+    width: 200px;
+  }
+  .img1{
+    width: 300px;
+    height: 20px;
+  }
+  .White-card{
+    padding: 0;
+
+  }
+  .p{
+    margin-right: 100px;
+  }
+  .maintitle{
+    margin-right: 100px;
+  }
+}
+
+/*2ND MAJOR SETTING PHONE*/
+@media(max-width: 450px) {
+  .Container{
+    width: 350px;
+  }
+  .img{
+    width: 200px;
+  }
+  .img1{
+    width: 280px;
+    height: 20px;
+  }
+  .White-card{
+    padding: 0;
+
+  }
+  .maintitle{
+    margin-right: 100px;
+  }
+}
+
+/*3RD MAJOR SETTING PHONE*/
+@media(max-width: 420px) {
+  .Container{
+    width: 320px;
+  }
+  .img{
+    width: 200px;
+  }
+  .img1{
+    width: 280px;
+    height: 20px;
+  }
+  .White-card{
+    padding: 0;
+  }
+
+  .maintitle{
+    margin-right: 200px;
+  }
+}
